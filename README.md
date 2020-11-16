@@ -1,5 +1,5 @@
 # Dynmap Area Generator
-This tool will generate areas in a Dynmap config file for Minecraft. It uses a psecial SVG image as base for the areas.
+This tool will generate areas in a Dynmap config file for Minecraft. It uses a special SVG image as base for the areas.
 All paths from the SVG in the layer with id `areas` is added as areas on the map in the specified layer. The id of the
 Path is used as the area-name on the map.
 
@@ -38,7 +38,7 @@ Flags:
     --offset-x 0 --offset-y 0 --scale-x 0 --scale-y 0
 ```
 
-## Creating yor own SVG
+## Creating your own SVG
 
 The SVG needs to follow a special format to work. It needs to have a layer with id `areas`. All paths for export should
 reside in that layer.
